@@ -1,0 +1,23 @@
+{
+  "name": "echowarden",
+  "version": "0.1.3",
+  "private": true,
+  "license": "BSD-2-Clause",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Echowarden.mjs",
+    "report": "node app/ReportPulse.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "@coinbase/cdp-sdk": "latest",
+    "@coinbase/agentkit": "latest",
+    "@base/node": "latest",
+    "base-web": "latest",
+    "viem": "latest",
+    "ethers": "latest",
+    "web3": "latest",
+    "axios": "latest"
+  }
+}
